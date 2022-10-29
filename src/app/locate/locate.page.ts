@@ -12,6 +12,7 @@ export class LocatePage  {
   clima: any;
   img: any;
   date: any;
+  mostrar = true;
 
   constructor(private service: ApisService ) { }
 
