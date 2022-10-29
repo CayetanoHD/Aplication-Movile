@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-buttons slot="start" >
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title style="color: #ffffffc7;">Sobre Nosotros</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img src="https://media-exp1.licdn.com/dms/image/C4E03AQFBEfVFeVyt9w/profile-displayphoto-shrink_800_800/0/1657774477534?e=2147483647&v=beta&t=II2rdhAvCn6uFbnGPDDFKLnBMNtOdMojQ-0w2uJWcso">
+
+  </ion-img>
+  <ion-list>
+    <ion-item><ion-icon name="person-outline" color="warning"></ion-icon>
+      <ion-icon></ion-icon> 
+      Nombre: {{name}}
+    </ion-item>
+    <ion-item><ion-icon name="person-outline" color="warning"></ion-icon> 
+      <ion-icon></ion-icon> 
+      Apellido: {{lastname}}
+      
+    </ion-item>
+    <ion-item>  <ion-icon name="code-outline" color="warning"></ion-icon>
+      <ion-icon></ion-icon>   Matricula: {{code}}  
+    </ion-item>
+    <ion-item><ion-icon name="mail-open-outline" color="warning"></ion-icon>
+      <ion-icon></ion-icon> 
+      Contacto: {{correo}}</ion-item>
+  </ion-list>
+
+</ion-content>
+

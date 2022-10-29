@@ -12,7 +12,7 @@ export class LocatePage  {
   clima: any;
   img: any;
   date: any;
-  mostrar = true;
+  mostrar = false;
 
   constructor(private service: ApisService ) { }
 
@@ -22,7 +22,7 @@ export class LocatePage  {
       console.log(value);
       this.location = value?.location;
 
-  
+
       this.data = value;
        this.clima = value.current.weather_descriptions;
       this.img = value.current.weather_icons[0];

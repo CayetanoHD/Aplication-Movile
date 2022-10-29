@@ -30,6 +30,10 @@ const routes: Routes = [
   {
     path: 'locate',
     loadChildren: () => import('./locate/locate.module').then( m => m.LocatePageModule)
+  },
+  {
+    path: 'me',
+    loadChildren: () => import('./me/me.module').then( m => m.MePageModule)
   }
 ];
 
